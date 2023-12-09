@@ -1,0 +1,27 @@
+{
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "devdoc",
+        "userdoc",
+        "metadata",
+        "abi"
+      ]
+    }
+  },
+  "optimizer": {
+    "enabled": true,
+    "runs": 200,
+    "details": {
+      "yulDetails": {
+        "optimizerSteps": "u"
+      }
+    }
+  },
+  "viaIR": true,
+  "metadata": {
+    "useLiteralContent": true
+  }
+}

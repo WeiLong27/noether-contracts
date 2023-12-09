@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "bytecodeHash": "none",
+    "useLiteralContent": true
+  },
+  "optimizer": {
+    "enabled": true,
+    "runs": 200,
+    "details": {
+      "yul": true
+    }
+  },
+  "viaIR": true,
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "devdoc",
+        "userdoc",
+        "metadata",
+        "abi"
+      ]
+    }
+  },
+  "libraries": {
+    "contracts/LOVCalculations.sol": {
+      "LOVCalculations": "0x3c7442689b4d86ea1bc70fca5fda5ccc8b812b85"
+    }
+  }
+}
